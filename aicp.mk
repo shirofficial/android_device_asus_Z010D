@@ -2,7 +2,7 @@
 $(call inherit-product, device/asus/Z010D/full_Z010D.mk)
 
 # Inherit some common AICP stuff.
-$(call inherit-product, vendor/aicp/overlay/common.mk)
+$(call inherit-product, vendor/aicp/configs/common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/asus/msm8916-common/overlay/lineage
 
